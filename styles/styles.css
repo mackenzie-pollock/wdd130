@@ -1,22 +1,49 @@
+
 body {
-    background-color: rgb(212, 230, 218);
+    padding: 0;
+    margin: 0;
+    background-color: #BFD7EA;
+
+}
+#content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+nav {
+    background-color: BFD7EA;
+    display: flex;
+    justify-content: center;
 }
 /* This is targeting a class in html */
 .nav_link {
     padding: 10px;
-    color: black
+    color: black;
     font-size: 1.3em;
+    text-decoration: none;
 }
 
 img{
-    width: 300px;
+    width: 30%;
+    display: block;
+    margin:0 auto;
+
 } 
-
-
+nav a:hover {
+    color: rgb(61, 58, 58);
+    background-color: white;
+}
 #main_title { 
     font-size: 3em;
+    text-align: center;
 }
+p {
+    text-align: center;
+} 
 
 #sub_tite {
     color: red;
+}
+footer {
+    background-color: E0FF4F;
+    padding: 20px;
 }
