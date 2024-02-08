@@ -1,8 +1,9 @@
-
-body {
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+body { 
+    
     padding: 0;
     margin: 0;
-    background-color: #BFD7EA;
+    background-color: white;
 
 }
 #content {
@@ -10,10 +11,11 @@ body {
     margin: 0 auto;
 }
 nav {
-    background-color: BFD7EA;
+    background-color: #BFD7EA;
     display: flex;
     justify-content: center;
 }
+
 /* This is targeting a class in html */
 .nav_link {
     padding: 10px;
@@ -26,6 +28,9 @@ img{
     width: 30%;
     display: block;
     margin:0 auto;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
 
 } 
 nav a:hover {
@@ -35,11 +40,24 @@ nav a:hover {
 #main_title { 
     font-size: 3em;
     text-align: center;
+    font-family: "Protest Riot", 'Bradley Hand', 'sans-serif';
 }
-p {
-    text-align: center;
-} 
-
+footer p, h3{ 
+    text-align: center; 
+}
+main p {
+    width: 60%;
+    margin: 50px auto;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 50px;
+    background-color: #BFD7EA;
+    border: 5px solid black;
+    color: black;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
 #sub_tite {
     color: red;
 }
