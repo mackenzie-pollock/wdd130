@@ -1,3 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+.home-title{
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+}
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
+}
 <body>
     <div id="content">
         <header>
@@ -6,11 +16,22 @@
     </div>
 </body>
 body {
-    background-color: #fcfbfb; 
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 22px;
+  text-align: center;
+  font-family: Raelway, Ariel, sans-serif;
+  background-color: #fcfbfb; 
+   
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
 }
+
 nav a:hover {
     background-color: black;
 }
@@ -39,6 +60,7 @@ nav a:hover {
     width: 80px;
 } 
 nav a {
+    padding: 35px;
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
@@ -49,3 +71,18 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+.book, .join {
+    background-color: #d9c2a3
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top:50px;
+    border-radius: 5px;
+  }
+  .card-img{
+    border: 10px solid #d9c2a3
+  }
+  main section img {
+    box-sizing: border-box;
+  }

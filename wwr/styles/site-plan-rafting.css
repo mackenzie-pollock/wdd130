@@ -2,7 +2,6 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
-
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #E0FF4F   ;
@@ -32,9 +31,10 @@ Fonts are separated by a & */
 body {
   max-width: 960px;
   margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
+  padding: 0;
+  font-size: 22px;
   text-align: center;
+  font-family: Raelway, Ariel, sans-serif;
 }
 img {
   display: block;
@@ -47,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
   text-align: center;
+  margin: 0;
 }
 hr {
   height: 3px;
@@ -110,7 +111,9 @@ nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
+  padding: 35px;
+  text-align: center;
+  color: #fcfbfb;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
