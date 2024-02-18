@@ -27,12 +27,17 @@ nav {
 img{
     width: 30%;
     display: block;
-    margin:0 auto;
-    border: 5px solid black;
+    margin: 0 auto;
     box-sizing: border-box;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    transition: transform .5s;
 
 } 
+img:hover { 
+    opacity: .6;
+    transform: scale(1.1);
+}
 nav a:hover {
     color: rgb(61, 58, 58);
     background-color: white;
@@ -64,4 +69,9 @@ main p {
 footer {
     background-color: E0FF4F;
     padding: 20px;
+}
+@media screen and (max-width: 900px) {
+    main{
+        display: block;
+    }
 }
