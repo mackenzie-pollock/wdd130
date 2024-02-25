@@ -20,7 +20,7 @@ header {
  }
  main .home-grid {
     display: grid;
-    grid-template-columns: repeat (10, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
  }
 #content {
     max-width: 1600px;
@@ -160,7 +160,7 @@ main section {
     padding-bottom: 15px;;
 }
 footer {
-    background-color: rgba(20,30,13, .7);
+    background-color: #6f7364;
     color: #d9c2a3
     padding 25px 50px;
     margin-top: 200px;
