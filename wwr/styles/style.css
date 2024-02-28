@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
 body {
-   background-color: #fcfbfb;
+   background-color: rgba(255, 255, 255, 0.836);
    font-family: 'Raleway', Arial, sans-serif;
    margin: 0;
    padding: 0;
@@ -8,7 +8,7 @@ body {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: rgba(20,30,13, .7);
+    background-color: #6f7364;
 }
 .icon, .icon{
     width: 80px;
@@ -30,48 +30,47 @@ nav {
     justify-content: space-around;
 }
 nav a {
-     padding: 35px;
-     text-align: center;
-     background-color: #fcfbfb;
-     text-decoration: none;
-     font-size: 1.15em;
-     color: white;
-     margin: auto;
-     width: 75%;
+    background-color: #6f7364;
+    font-family: 'Rubik', 'Geneva', sans-serif;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.15em;
+    color: white;
+    margin: auto;
+    width: 75%;
 }
  nav a:hover {
-     background-color: black;
-     color: #d9c2a3;
-     font-family: 'Rubik', 'Geneva', sans-serif;
+    background-color: #d0ccd0;
+    color: #d9c2a3;
+    font-family: 'Rubik', 'Geneva', sans-serif;
 }
 #hero {
-     display: grid;
-     grid-template-columns: 1fr 3fr 1fr;
-     margin-top: -100px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
 }
 #hero-box {
-     grid-column: 1/4;
-     grid-row: 1/3;
-     z-index: -1;
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
 }
 #hero-msg {
-     grid-column: 2/3;
-     grid-row: 1/2;
-     margin-top: 100px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
 }
 #hero-msg h4 {
-      color: white;
-      display: none;
+    color: white;
 }
 .home-title {
-        font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-        font-size: 3em;
-        color: white;
-        margin-top: 30px;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 3em;
+    color: white;
+    margin-top: 30px;
 }
 .home-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .book, .join {
     background-color: #d9c2a3;
@@ -83,13 +82,13 @@ nav a {
     border-radius: 5px;
 }
 .book:hover, .join:hover {
-    background-color:#000000;
+    background-color: #6f7364;
 }
 #background {
+    height: 725px;
     grid-column: 1/11;
     grid-row: 4/9;
     background-color: #d9c2a3;
-    height: 725px;
 }
 h2 {
     margin: 0;
@@ -106,7 +105,7 @@ h2 {
     padding: 35px;
 }
 .msg h2 {
-    color: white;
+    color: black;
     font-family: 'Rubik', 'Geneva', sans-serif;
     padding-bottom: 15px;
 }
@@ -118,12 +117,7 @@ h2 {
 }
 #content {
     max-width: 1600px;
-    text-align: center;
     margin: auto;
-    margin-top: 0 auto;
-    margin-bottom: 0 auto;
-    margin-left: auto;
-    margin-left: auto;
 }
 h2, h3, h4, h6, p{
     color: #000000;
@@ -131,13 +125,12 @@ h2, h3, h4, h6, p{
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
-    width: 100%;
 }
 .button-box {
     text-align: center;
 }
 img#hero-img {
-        width: 100%;
+    width: 100%;
 }
 img.card-img{
     display: block;
@@ -149,18 +142,18 @@ img.card-img{
     box-shadow: 5px 5px 10px #6f7364;
  }
  .card-img:hover {
-     opacity: .6;
-     transform: scale(1.1) ;
-  }
+    opacity: .6;
+    transform: scale(1.1);
+}
   .card-img, .mountains {
-     width: 100%;
-  }
+    width: 100%;
+}
 main section {
-        text-align: center;
-    }
+    text-align: center;
+}
 main section img {
-          box-sizing: border-box;
-      }
+    box-sizing: border-box;
+}
  .mountains {
     box-shadow: 5px 5px 10px #6f7364;
     grid-column: 2/7;
@@ -185,9 +178,9 @@ main section img {
 }
 footer {
     background-color: #6f7364;
-    color: #d9c2a3
-    padding: 25px 50px;
+    padding: 15px 50px;
     margin-top: 200px;
+    padding: 25px 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
