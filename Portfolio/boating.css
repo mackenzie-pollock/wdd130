@@ -5,25 +5,25 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #246a73   ;
-  --secondary-color: #368f8b ;
-  --accent1-color:  #f3dfc1;
-  --accent2-color: #e76f51;
+  --primary-color: #027a76   ;
+  --secondary-color: #bfddce ;
+  --accent1-color:  #dbae8d;
+  --accent2-color: #e86c4f;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Open Sans";
   --paragraph-font: 'Avante Garde', Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #246a73;  /* headlines on a white background */ 
+  --headline-color-on-white: #027a76;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #368f8b; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #2c434b; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #246a73  ;
-  --nav-link-color: #398f8b;
-  --nav-background-color: #f3dfc1;
+  --paragraph-background-color: #027a76  ;
+  --nav-link-color: #027a76;
+  --nav-background-color: #dbae8d;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #246a73;
+  --nav-hover-background-color: #e86c4f;
 }
 
 

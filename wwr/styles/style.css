@@ -10,6 +10,7 @@ header {
     grid-template-columns: 150px auto;
     background-color: #6f7364;
 }
+
 .icon, .icon{
     width: 80px;
     margin: 30px;
