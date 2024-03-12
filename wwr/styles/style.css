@@ -244,6 +244,7 @@ form {
     display: inline-block;
     width: 90px;
     text-align: right;
+    margin: 0 10px 
   }
   
   input,
@@ -255,7 +256,7 @@ form {
     /* Uniform text field size */
     width: 300px;
     box-sizing: border-box;
-  
+    padding: 10px;
     /* Match form field borders */
     border: 1px solid #999;
   }
@@ -264,6 +265,7 @@ form {
   textarea:focus {
     /* Additional highlight for focused elements */
     border-color: #000;
+
   }
   
   textarea {
@@ -283,7 +285,9 @@ form {
   button {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
-    margin-left: 0.5em;
+    margin-left: 2em;
+    padding: 10px;
+    font-size: 1.2em;
   }
   #feedback {
     background-color: white;
