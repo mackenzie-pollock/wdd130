@@ -42,8 +42,8 @@ nav a {
     width: 75%;
 }
  nav a:hover {
-    background-color: #d0ccd0;
-    color: #d9c2a3;
+    background-color: white;
+    color: black;
     font-family: 'Rubik', 'Geneva', sans-serif;
 }
 #hero {
@@ -79,18 +79,33 @@ nav a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    padding-bottom: 150px;
     
 }
 .rivers {
     margin: 35px;
     font-family: 'rock salt', 'Bradley Hand', sans-serif;
-    font-size: ;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .rivers-grid > section > img {
     width: 100%;
     object-fit: cover;
     height: 300px;
+    border: 5px solid grey;
+    box-sizing: border-box;
+    
 }
+.FAQ  {
+    border: 5px solid grey;
+    color: black;
+    padding: 50px;
+}
+
+
+
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
