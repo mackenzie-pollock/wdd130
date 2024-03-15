@@ -4,23 +4,23 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #E0FF4F   ;
-  --secondary-color: #FF6663 ;
-  --accent1-color: #BFD7EA;
-  --accent2-color: #0d3b66;
+  --primary-color: #d9c2a3   ;
+  --secondary-color: #6f7364 ;
+  --accent1-color: #003968;
+  --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #ff6663;  /* headlines on a white background */ 
+  --headline-color-on-white: #6f7364;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #BFD7EA; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
+  --paragraph-background-color: #003968  ;
   --nav-link-color: #396E94;
-  --nav-background-color: #E0ff4f;
+  --nav-background-color: #6f7364;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
@@ -57,7 +57,7 @@ hr {
 header {
   padding: 1em;
   text-align: center;
-  color: var(--headline-color-on-color);
+  color: #6f7364;
   background-color: var(--paragraph-background-color);
 }
 header > h1, header > h2 {
