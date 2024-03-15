@@ -71,12 +71,25 @@ nav a {
 .home-title {
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 3em;
-    color: white;
+    color: #6f7364;
     margin-top: 30px;
 }
+
 .rivers-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    
+}
+.rivers {
+    margin: 35px;
+    font-family: 'rock salt', 'Bradley Hand', sans-serif;
+    font-size: ;
+}
+.rivers-grid > section > img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
 }
 .home-grid {
     display: grid;
