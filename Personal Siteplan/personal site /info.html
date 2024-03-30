@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Info</title>
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 
 <body>
@@ -17,43 +18,76 @@
         <a href="../siteplan.html">Site Plan</a>
         <a href="booking.html">Booking</a>
      </nav>
-     <h1>Welcome to Our Wakeboarding & Wake Surfing Tours</h1>
-     <img src="../gorge.png" alt="main inmage">
- </header>
-    <div class="tours-grid">
-        <section>
-            <img src="../sideview-boat.png" alt="sideview-boat">
-        </section>
-
-        <section>
-            <img src="../fampic.png" alt="fam-pic">
-        </section>
-
+    </header>
+    <main class="tours">
+   <h1>Info</h1>
+        <div class="tours-flex">
+            <img src="../sideview-boat.png" alt="flex">
+            <p>In the arid expanse of Yuma, Arizona, where shimmering lakes offer refuge from the desert heat, the genesis of our wakeboarding and wakesurfing tour company began. Founded by a family bonded by a shared love for water sports, our company emanates values of passion, safety, and adventure. With a dedication to providing unforgettable experiences, we've crafted tours to the breathtaking waters of Lake Powell, the serene allure of Park Moabi, and the tranquil vistas of Senators Wash.</p>
+    </div>
     
-
-        <p>In the arid expanse of Yuma, Arizona, where shimmering lakes offer refuge from the desert heat, the genesis of our wakeboarding and wakesurfing tour company began. Founded by a family bonded by a shared love for water sports, our company emanates values of passion, safety, and adventure. With a dedication to providing unforgettable experiences, we've crafted tours to the breathtaking waters of Lake Powell, the serene allure of Park Moabi, and the tranquil vistas of Senators Wash.</p>
+    <div class="tours-flex2"> 
         <p>Our team of experienced tour guides, led by Justin Pollock, Mackenzie Pollock, Liz Pollock, and Grayson Pollock, embodies our commitment to excellence. Drawing upon their extensive knowledge of the waters and a genuine enthusiasm for sharing their expertise, our guides ensure every excursion is filled with excitement and memories to cherish. From beginners to seasoned enthusiasts, we welcome all to embark on an exhilarating journey with us, where the thrill of the waves meets the warmth of familial hospitality.</p>
-        <p>We are a family owned adventure company. We have spent many years on the water and love to share fun memoreis with everyone we can!</p>
+        <img src="../fampic.png" alt="fam-pic">
     </div>
-    <div>
-        <p>FAQ section</p>
+    
+    <h1>FAQ</h1>
+    <button class="accordion">Is wakeboarding suitable for beginners?</button>
+    <div class="panel">
+      <p>Yes! Wakeboarding and wakesurfing can be enjoyed by beginners with no prior experience! Our tours cater to all skill levels, and our experienced guides provide personalized instruction to help beginners get started and improve their skills on the water.</p>
     </div>
-</body>
+    
+    <button class="accordion">What sould I bring for the tour? </button>
+    <div class="panel">
+      <p>We recommend wearing swimwear or comfortable clothing suitable for water activities. Bring sunscreen, water shoes, and a towel. We provide all necessary wakeboarding equipment, including wakeboards and life jackets plus some snacks and drinks.</p>
+    </div>
+    
+    <button class="accordion">How long are the tours, ande what's included?</button>
+    <div class="panel">
+      <p>Our tours typically last around 3-5 hours, depending on the package chosen. Included are equipment rental, professional instruction, and a thrilling wakeboarding experience in the stunning waters of Lake Powell, Park Moabi, or Senators Wash.</p>
+    </div>
+    
+    <button class="accordion">What happens in case of bad weather, and how far in advanced should I book? </button>
+    <div class="panel">
+      <p>In the event of bad weather, we prioritize safety and may reschedule the tour or offer refunds. We recommend booking at least a week in advance to secure your spot, although last-minute bookings may be accommodated based on availability.</p>
+    </div>
+    
+       
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script>
+            
+    
+</main>
 <footer>
     <p>&copy; 2024 Wakeboarding & Wake Surfing Tours</p>
-       
-        <p><a href="index.html"> Home</a></p>
-        <p><a href="booking.html"> Booking</a></p>
-        <div class="social">
-            <a href="https://facebook.com" target="_blank">
-                <img src="../facebook.png" alt="fb icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="../twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank"> 
-                <img src="../instagram.png" alt="instagram icon">
-            </a>
-         </div>
+    
+    <p><a href="index.html"> Home</a></p>
+    <p><a href="booking.html"> Booking</a></p>
+    <div class="social">
+        <a href="https://facebook.com" target="_blank">
+            <img src="../facebook.png" alt="fb icon">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="../twitter.png" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com" target="_blank"> 
+            <img src="../instagram.png" alt="instagram icon">
+        </a>
+    </div>
 </footer>
+</body>
 </html>

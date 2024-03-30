@@ -1,0 +1,141 @@
+header {
+    display: flex;
+    background-color: #bfddce;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.logo {
+   width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+body {
+    background-color: rgba(255, 255, 255, 0.836);
+    font-family: 'Raleway', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+ }
+ nav a {
+    background-color: #bfddce;
+    font-family: 'Rubik', 'Geneva', sans-serif;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.15em;
+    color: white;
+    margin: auto;
+    margin-top: 2em;
+    width: 75%;
+    justify-content: space-around;
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+    font-family: 'Rubik', 'Geneva', sans-serif;
+}
+.main-image {
+    display: flex;
+}
+ .main-image img {
+    max-width: 50%;
+ }
+ h1 {
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+
+ }
+ h2 {
+    text-align: center;
+ }
+
+ #about {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.5em;
+ }
+ #tours {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .tours-flex, .tours-flex2 {
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   
+ }
+ .tours-flex img, .tours-flex2 img{
+    width: 50%;
+   
+    background-color: #e86c4f;
+    
+ }
+ .tours-flex p, .tours-flex2 p{
+    margin: 75px;
+    padding: 45px;
+    background-color: #dbae8d;
+    
+
+ }
+ 
+ .tours {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
+    margin: 25px auto;
+
+ }
+ 
+ .tour img {
+    width: 50%;
+
+ }
+#booking picture {
+    max-width: 50%;
+}
+.booking {
+    text-align: center;
+    font-size: 1.5em;
+}
+.contact {
+    text-align: center;
+    font-size: 1.8em;
+}
+ .accordion {
+    background-color: #d4ed88;
+    color: #027a76;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  .active, .accordion:hover {
+    background-color: #d4ed88;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+ footer {
+    background-color: #bfddce;
+    padding: 15px 50px;
+    margin-top: 200px;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+}
