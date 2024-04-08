@@ -1,3 +1,4 @@
+
 .content {
    max-width: 1600px;
    margin: 0 auto;
@@ -57,29 +58,48 @@ nav a:hover {
     padding-left: 100px;
     margin-top: ;
     letter-spacing: 3px;
-
+   background-color: #d4ed88;
+   border-radius: 15px;
  }
  h2 {
     text-align: center;
     letter-spacing: 2px;
+    font-size: 2em;
  }
  h5 {
    background-color: #dbae8d;
-   
+   border-radius: 10px;
+   padding: 15px;
+ }
+ h6 {
+   letter-spacing: 1px;
+   font-size: 1em;
+   background-color: #d4ed88;
+   border-radius: 15px;
+   padding: 10px;
+   padding-left: 15px;
+   margin-block-start: 15px;
  }
  #about {
+   border-radius: 25px;
     text-align: center;
-    
-    font-size: 1.5em;
+    font-size: 1.2em;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #dbae8d;
+    padding: 15px;
+
  }
  #tours {
     display: flex;
-    padding: 20px;
+    padding: 30px;
     justify-content: space-around;
     align-items: center;
     gap: 50px;
     margin: 100px;
-    
+    background-color: #f1856d;
+    border-radius: 25px;
+    pa
  }
  .tours-flex, .tours-flex2 {
    align-items: center;
@@ -100,7 +120,10 @@ nav a:hover {
     
 
  }
- 
+ #booking-img {
+   align-items: center;
+   padding-left: 400px;
+ }
  .tours {
     display: flex;
     align-items: center;
@@ -108,30 +131,25 @@ nav a:hover {
     flex-direction: column;
     width: 95%;
     margin: 25px auto;
-
-
  }
  h3 {
    text-align: center;
  }
  .tour img {
     width: 300px;
-
  }
-#booking-picture {
-display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  
-}
 .booking {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 .contact {
     text-align: center;
-    font-size: 1.8em;
+    font-size: .8em;  
+}
+#contact {
+   text-align: center;
+   margin: 100px;
+   
 }
  .accordion {
     background-color: #d4ed88;
