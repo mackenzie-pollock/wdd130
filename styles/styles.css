@@ -67,7 +67,7 @@ main p {
     color: red;
 }
 footer {
-    background-color: E0FF4F;
+    background-color: #BFD7EA;  
     padding: 20px;
 }
 @media screen and (max-width: 900px) {
