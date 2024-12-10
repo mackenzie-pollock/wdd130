@@ -32,43 +32,57 @@
     </div>
     
     <h5>FAQ</h5>
-    <button class="accordion">Is wakeboarding suitable for beginners?</button>
-    <div class="panel">
-      <p>Yes! Wakeboarding and wakesurfing can be enjoyed by beginners with no prior experience! Our tours cater to all skill levels, and our experienced guides provide personalized instruction to help beginners get started and improve their skills on the water.</p>
+
+    <div class="accordion-container">
+  
+      <button class="accordion">What happens in case of bad weather, and how far in advanced should I book? </button>
+      <div class="panel">
+        <p>In the event of bad weather, we prioritize safety and may reschedule the tour or offer refunds. We recommend booking at least a week in advance to secure your spot, although last-minute bookings may be accommodated based on availability.</p>
+      </div>
+      
+      <button class="accordion">Is wakeboarding suitable for beginners?</button>
+      <div class="panel">
+        <p>Yes! Wakeboarding and wakesurfing can be enjoyed by beginners with no prior experience! Our tours cater to all skill levels, and our experienced guides provide personalized instruction to help beginners get started and improve their skills on the water.</p>
+      </div>
+      
+      <button class="accordion">What sould I bring for the tour? </button>
+      <div class="panel">
+        <p>We recommend wearing swimwear or comfortable clothing suitable for water activities. Bring sunscreen, water shoes, and a towel. We provide all necessary wakeboarding equipment, including wakeboards and life jackets plus some snacks and drinks.</p>
+      </div>
+      
+      <button class="accordion">How long are the tours, and what's included?</button>
+      <div class="panel">
+        <p>Our tours typically last around 3-5 hours, depending on the package chosen. Included are equipment rental, professional instruction, and a thrilling wakeboarding experience in the stunning waters of Lake Powell, Park Moabi, or Senators Wash.</p>
+      </div>
+      
+      <button class="accordion">What happens in case of bad weather, and how far in advanced should I book? </button>
+      <div class="panel">
+        <p>In the event of bad weather, we prioritize safety and may reschedule the tour or offer refunds. We recommend booking at least a week in advance to secure your spot, although last-minute bookings may be accommodated based on availability.</p>
+      </div>
+
     </div>
+      
     
-    <button class="accordion">What sould I bring for the tour? </button>
-    <div class="panel">
-      <p>We recommend wearing swimwear or comfortable clothing suitable for water activities. Bring sunscreen, water shoes, and a towel. We provide all necessary wakeboarding equipment, including wakeboards and life jackets plus some snacks and drinks.</p>
-    </div>
-    
-    <button class="accordion">How long are the tours, ande what's included?</button>
-    <div class="panel">
-      <p>Our tours typically last around 3-5 hours, depending on the package chosen. Included are equipment rental, professional instruction, and a thrilling wakeboarding experience in the stunning waters of Lake Powell, Park Moabi, or Senators Wash.</p>
-    </div>
-    
-    <button class="accordion">What happens in case of bad weather, and how far in advanced should I book? </button>
-    <div class="panel">
-      <p>In the event of bad weather, we prioritize safety and may reschedule the tour or offer refunds. We recommend booking at least a week in advance to secure your spot, although last-minute bookings may be accommodated based on availability.</p>
-    </div>
+<script>
+  const accordions = document.querySelectorAll('.accordion');
+  
+  accordions.forEach(accordion => {
+    accordion.addEventListener('click', function() {
+      this.classList.toggle('active');
+      
+      const panel = this.nextElementSibling;
+      if (panel.style.display === 'block') {
+        panel.style.display = 'none';
+      } else {
+        panel.style.display = 'block';
+      }
+    });
+  });
+</script>
     
        
-        <script>
-            var acc = document.getElementsByClassName("accordion");
-            var i;
-            
-            for (i = 0; i < acc.length; i++) {
-              acc[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                  panel.style.display = "none";
-                } else {
-                  panel.style.display = "block";
-                }
-              });
-            }
-            </script>
+       
+          
             
     
 </main>

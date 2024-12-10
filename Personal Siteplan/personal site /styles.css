@@ -151,26 +151,39 @@ nav a:hover {
    margin: 100px;
    
 }
- .accordion {
-    background-color: #d4ed88;
-    color: #027a76;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: center;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-  }
-  .active, .accordion:hover {
-    background-color: #d4ed88;
-  }
-  .panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-  }
+.panel {
+   padding: 0 18px;
+   background-color: white;
+   max-height: scrollHeight;
+   overflow: hidden;
+   transition: max-height 0.2s ease-out;
+ }
+.accordion {
+   background-color: #d4ed88;
+   color: #027a76;
+   cursor: pointer;
+   padding: 18px;
+   width: 98%;
+   max-width: 600px;
+   text-align: center;
+   border: none;
+   outline: none;
+   transition: 0.4s;
+   margin: 0.5em 0;
+   font-size: 25px;
+   border-radius: 10px;
+ }
+ .active, .accordion:hover {
+   background-color: #c8e372; /* Slightly darker green to show it's active */
+ }
+ 
+ .accordion-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 0;
+ }
+ 
  footer {
     background-color: #bfddce;
     padding: 15px 50px;
