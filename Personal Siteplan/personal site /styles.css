@@ -56,7 +56,7 @@ nav a:hover {
     text-align: center;
     padding-right: 100px;
     padding-left: 100px;
-    margin-top: ;
+    margin-top: 0 auto;
     letter-spacing: 3px;
    background-color: #d4ed88;
    border-radius: 15px;
@@ -99,7 +99,7 @@ nav a:hover {
     margin: 100px;
     background-color: #f1856d;
     border-radius: 25px;
-    pa
+   
  }
  .tours-flex, .tours-flex2 {
    align-items: center;
@@ -121,9 +121,146 @@ nav a:hover {
 
  }
  #booking-img {
+   display: flex; 
+   justify-content: center; /* Centers image horizontally */
+   align-items: center; /* Centers image vertically */
+   padding-left: 0; /* Remove this to avoid image being offset */
+   padding-right: 0; 
+   
+   padding-bottom: 30px; /* Optional for spacing */
+}
+.container img {
+   width: 100%; /* Keeps the image responsive */
+   max-width: 1600px; /* Set a max width for better control */
+   transition: transform 0.3s ease; /* Smooth animation */
+
+}
+.container img:hover {
+   transform: scale(0.9); /* Shrinks image to 90% of its size */
+}
+.container {
+   position: relative;
+
+}
+.container .content {
+   position: absolute; 
+   bottom: 0; 
+   background: rgba(0, 0, 0, 0.6); /* Black background with 60% opacity */
+   color: #f1f1f1; /* Light gray text */
+   width: 100%; 
+   padding: 20px; 
+   text-align: center; /* Centers the text */
+   transition: transform 0.3s ease;
+}
+
+.container:hover .content {
+    transform: scale(0.9); /* Shrinks both the image and text box to 90% */
+}
+body {
+   font-family: 'Raleway', Arial, sans-serif;
+   background-color: #f4f4f9;
+}
+
+#booking-section {
+   display: flex;
+   justify-content: center;
    align-items: center;
-   padding-left: 400px;
- }
+   min-height: 100vh;
+   background-color: #f4f4f9;
+   padding: 50px 0;
+}
+
+.booking-container {
+   background-color: #ffffff;
+   border-radius: 20px;
+   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+   width: 90%;
+   max-width: 500px;
+   padding: 40px;
+   text-align: center;
+   transition: transform 0.3s ease;
+}
+
+.booking-container:hover {
+   transform: translateY(-10px);
+}
+
+h2 {
+   font-size: 2em;
+   color: #333;
+   margin-bottom: 10px;
+}
+
+p {
+   font-size: 1.1em;
+   color: #666;
+   margin-bottom: 30px;
+}
+
+.booking-form {
+   width: 100%;
+}
+
+.form-group {
+   margin-bottom: 20px;
+   text-align: left;
+}
+
+.form-group label {
+   display: block;
+   font-size: 0.9em;
+   margin-bottom: 8px;
+   color: #333;
+}
+
+.form-group input {
+   width: 100%;
+   padding: 15px 20px;
+   font-size: 1em;
+   border-radius: 10px;
+   border: 1px solid #ddd;
+   background-color: #f9f9f9;
+   transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+   border-color: #333;
+   outline: none;
+   background-color: #fff;
+}
+
+.btn-book {
+   display: inline-block;
+   width: 100%;
+   padding: 15px 0;
+   font-size: 1.1em;
+   color: #ffffff;
+   background-color: #333;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   font-weight: bold;
+}
+
+.btn-book:hover {
+   background-color: #bfddce;
+   transform: translateY(-3px);
+}
+
+.btn-book:active {
+   background-color: #bfddce;
+   transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+   .booking-container {
+       width: 100%;
+       padding: 20px;
+   }
+}
+
  .tours {
     display: flex;
     align-items: center;

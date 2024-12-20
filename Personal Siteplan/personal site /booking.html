@@ -23,41 +23,51 @@
 
 
 <section id="booking-img">
-    <img src="../booking-img.png" alt="booking-img">
-
+    
+    <div class="container">
+        <img src="../man-wakesurfing-wave-from-boat.jpg" alt="booking-img">
+        <div class="content">
+          <h7>Enjoy the Thrill of Wakeboarding</h7>
+          <p>Experience adventure like never before. Book your tour today!</p>
+        </div>
+    </div>
+    
 </section>
-<div class="booking">
-    <p>Tour Packages and Pricing:</p>
-    <p>Lake Powell Day Tour- $450 a day</p>
-    <p>Park Moabi Day Tour- $250 a day</p>
-    <p>Senators Wash Day Tour- $250 a day</p>
-    <p>Additional prices added for groups of 5+ We suggest calling so that we can accomodate and figure out the best plan!</p>
 
-</div>
-</div>
-<main class="contact">
-    <h6>Contact Us Here:</h6>
-    <div id="feedback"></div>
-    <form action="/my-handling-form-page" method="post">
-        <ul>
-          <li>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name"/>
-          </li>
-          <li>
-            <label for="mail">Email:</label>
-            <input type="email" id="mail" name="user_email" placeholder="youremail@here.com"/>
-          </li>
-          <li>
-            <label for="msg">Message:</label>
-            <textarea id="msg" name="user_message"></textarea>
-          </li>
-          <li class="button">
-            <button type="submit">Send your message</button>
-          </li>
-        </ul>
-        <p>For any other questions, call us at: (559) 741-6560</p>
-      </form>
+
+
+<main 
+    
+<section id="booking-section">
+    <div class="booking-container">
+        <h8>Book Your Adventure</h8>
+        <p>Reserve your spot for an unforgettable wakeboarding experience!</p>
+
+        <form class="booking-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Select Date</label>
+                <input type="date" id="date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="guests">Number of Guests</label>
+                <input type="number" id="guests" min="1" max="10" placeholder="1" required>
+            </div>
+
+            <button type="submit" class="btn-book">Book Now</button>
+        </form>
+    </div>
+</section>
 </main>
     <footer>
         <p>&copy; 2024 Wakeboarding & Wake Surfing Tours</p>
@@ -77,23 +87,6 @@
          </div>
     </footer>
     <div>
-    <script>
-        // get the feedback div element so we can do something with it.
-        const feedbackElement = document.getElementById('feedback');
-        // get the form so we can read what was entered in it.
-        const formElement = document.forms[0];
-        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-        formElement.addEventListener('submit', function(e) {
-            // stop the form from doing the default action.
-            e.preventDefault();
-            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
-            // make the feedback element visible.
-            feedbackElement.style.display = "block";
-            // add a class to move everything down so our message doesn't cover it.
-            document.body.classList.toggle('moveDown');
-        });
-        </script>
        </div>
 </body>
 </html>
